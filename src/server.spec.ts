@@ -2,13 +2,6 @@ import { response } from 'express';
 import request from 'supertest';
 import { app } from './app';
 
-// describe("[GET] /", () => {
-//   it("Teste simples", async () => {
-//     expect(true).toBe(true)
-//   })
-// })
-
-
 describe("Teste simples", ()=> {
   test("Verifica se o retorno da função é true", async() => {
     const res = await request(app).get('/');
