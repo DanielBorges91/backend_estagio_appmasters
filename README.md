@@ -35,3 +35,6 @@ yarn dev
 ```bash
 yarn test
 ```
+_______
+
+Autor - [Daniel Borges](https://www.linkedin.com/in/daniel-borges-1531011a8/)
