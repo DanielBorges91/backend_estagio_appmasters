@@ -30,7 +30,7 @@ yarn install
 yarn dev
 ```
 
-## Tests
+## Teste
 
 ```bash
 yarn test
