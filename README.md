@@ -2,7 +2,7 @@
 
 Processo de seleção para estágio JavaScript da [App Masters](https://appmasters.io)
 
-# O Projeto
+## O Projeto
 
 O objetivo deste projeto é ajudar pessoas que desejam doar computadores usados, e que estes sejam destinados às pessoas que estejam precisando, ao invés de irem para reciclagem.
 
@@ -20,7 +20,7 @@ O backend será uma API do projeto de doação, que receberá os dados enviados 
 - Na raiz retornar status 200, um objeto json `{alive: true}` (sempre `true`)
 - Criar um teste (com jest, superTest, ou [node:test](https://nodejs.org/docs/latest-v18.x/api/test.html)), que faça uma chamada em `/` e dê sucesso caso o resultado seja `{alive: true}`
 
-# Building
+## Executando o projeto
 
 Você precisa ter o [Node.js](https://nodejs.org) instalado em seu computador.
 ```bash
@@ -30,7 +30,7 @@ yarn install
 yarn dev
 ```
 
-# Tests
+## Tests
 
 ```bash
 yarn test
